@@ -134,6 +134,8 @@ body {
 }
 
 .header_section {
+  background: red; 
+  padding-bottom:5vh;
   padding: 0;
 }
 
@@ -917,3 +919,8 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+/* custom css */
+
+.nav-link {
+  cursor: pointer; 
+}
