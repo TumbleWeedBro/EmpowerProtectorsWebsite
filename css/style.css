@@ -52,7 +52,7 @@ body {
   content: "";
   width: 40px;
   height: 7px;
-  background-color: #f1db25;
+  background-color: red;
   border-radius: 10px;
   position: absolute;
   bottom: 0;
@@ -134,7 +134,7 @@ body {
 }
 
 .header_section {
-  background: red; 
+  background: black; 
   padding-bottom:5vh;
   padding: 0;
 }
@@ -175,7 +175,7 @@ body {
 
 .header_top .contact_link-container a i {
   font-size: 20px;
-  color: #f1db25;
+  color: red;
   margin-right: 5px;
 }
 
@@ -341,7 +341,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 span {
-  color: #f1db25;
+  color: red;
 }
 
 .slider_section .detail-box p {
@@ -380,7 +380,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #f1db25;
+  background-color: red;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -389,8 +389,8 @@ a:focus {
 
 .slider_section .detail-box .btn-box .btn-2:hover {
   background-color: transparent;
-  border-color: #f1db25;
-  color: #f1db25;
+  border-color: red;
+  color: red;
 }
 
 .slider_section .img-box {
@@ -420,7 +420,7 @@ a:focus {
   height: 20px;
   border-radius: 100%;
   text-align: center;
-  background-color: #f1db25;
+  background-color: red;
   opacity: 1;
   border: none;
   margin: 0 4px;
@@ -456,7 +456,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #f1db25;
+  background-color: red;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -466,8 +466,8 @@ a:focus {
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  border-color: #f1db25;
-  color: #f1db25;
+  border-color: red;
+  color: red;
 }
 
 .service_section {
@@ -507,7 +507,7 @@ a:focus {
 .service_section .box .detail-box a {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #f1db25;
+  background-color: red;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -517,8 +517,8 @@ a:focus {
 
 .service_section .box .detail-box a:hover {
   background-color: transparent;
-  border-color: #f1db25;
-  color: #f1db25;
+  border-color: red;
+  color: red;
 }
 
 .client_section {
@@ -603,7 +603,7 @@ a:focus {
 
 .client_section .carousel-control-prev:hover,
 .client_section .carousel-control-next:hover {
-  background-color: #f1db25;
+  background-color: red;
 }
 
 .client_section .carousel-control-prev {
@@ -679,7 +679,7 @@ a:focus {
 .contact_section .contact_form-container button {
   display: inline-block;
   padding: 10px 60px;
-  background-color: #f1db25;
+  background-color: red;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -690,8 +690,8 @@ a:focus {
 
 .contact_section .contact_form-container button:hover {
   background-color: transparent;
-  border-color: #f1db25;
-  color: #f1db25;
+  border-color: red;
+  color: red;
 }
 
 .contact_bg_box {
@@ -778,7 +778,7 @@ a:focus {
 .team_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f1db25;
+  background-color: red;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -787,8 +787,8 @@ a:focus {
 
 .team_section .btn-box a:hover {
   background-color: transparent;
-  border-color: #f1db25;
-  color: #f1db25;
+  border-color: red;
+  color: red;
 }
 
 .info_section {
@@ -874,7 +874,7 @@ a:focus {
   outline: none;
   border: none;
   color: #ffffff;
-  background: #f1db25;
+  background: red;
   border-radius: 30px;
   margin-top: 15px;
   text-transform: uppercase;
@@ -923,4 +923,8 @@ a:focus {
 
 .nav-link {
   cursor: pointer; 
+}
+
+.image-logo {
+  max-height:10vh
 }
