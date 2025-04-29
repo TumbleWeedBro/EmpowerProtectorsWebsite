@@ -106,9 +106,12 @@ body {
 }
 
 .hero_bg_box .img-box img {
-  min-width: 100%;
-  min-height: 100%;
+  z-index:-1;
+  position: relative;
+  transform: translateX(400px) translateY(-45vh); /* adjust as needed */
 }
+
+
 
 .hero_bg_box::before {
   content: "";
@@ -401,7 +404,10 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
+
 }
+
+
 
 .slider_section .idicator_container {
   position: relative;
